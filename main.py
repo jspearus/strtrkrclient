@@ -65,7 +65,7 @@ root.bind('<Right>',key_pressR)
 
 # ################################# UI CONFIG #######################
 orderFrame = Frame(root, bg=Background)
-orderFrame.place(x=10, y=10, width=1100, height=400)
+orderFrame.place(x=10, y=10, width=1050, height=400)
 
 palletL = Label(orderFrame, width=10, text="Pallets")
 palletL.place(x=100, y=10)
@@ -103,7 +103,7 @@ curRate = Label(orderFrame, width=12, font=('Arial 25'), text="Rate = 160/hr")
 curRate.place(x=750, y=200)
 
 quit = Button(root, text='Quit', font=('Arial 20'), command=root.destroy, takefocus=0)
-quit.place(x=1170, y=30)
+quit.place(x=1100, y=30)
 palletE.focus()
 entries = [palletE, caseE, aisleE, storeNumE, slotNumE]
 for i in entries:
