@@ -17,7 +17,7 @@ root = Tk()
 root.configure(background='black')
 root.title("Order Tracker New")
 # root.geometry('2080x730+0+0')
-root.geometry('1280x400')
+root.geometry('1200x390')
 
 
 # Define a function to display the message
