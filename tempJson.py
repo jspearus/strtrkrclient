@@ -12,4 +12,6 @@ def record_order(pal, case, alsle, store, slot):
         json.dump(data, f, ensure_ascii=False, indent=4)
         
 #  test
-record_order(12, 350, 41, 52, 10)
+record_order(1.2, 160, 30, 52, 10)
+record_order(1.9, 180, 30, 25, 20)
+record_order(2.5, 350, 41, 40, 32)
