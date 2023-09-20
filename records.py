@@ -13,5 +13,3 @@ def record_order(pal, case, alsle, store, slot):
         
 #  test
 record_order(1.2, 160, 30, 52, 10)
-record_order(1.9, 180, 30, 25, 20)
-record_order(2.5, 350, 41, 40, 32)
